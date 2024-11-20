@@ -45,14 +45,14 @@
   margin-top: 30px;
   column-gap: 20px;
   list-style-type: none;
+}
+
+.nav__link {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-}
-
-.nav__link {
 }
 
 li {
@@ -97,7 +97,7 @@ li {
   line-height: 30px;
 }
 
-.inside_coffee_shop {
+.header__image {
   display: flex;
   flex-direction: column;
   position: absolute;
