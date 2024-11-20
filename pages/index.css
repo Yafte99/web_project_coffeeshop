@@ -10,4 +10,124 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  margin-bottom: 183px;
+  width: 105px;
+  height: 39px;
+}
+.nav__links {
+  display: flex;
+  margin-right: 80px;
+  margin-top: 30px;
+  column-gap: 20px;
+  list-style-type: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+}
+
+li {
+  display: list-item;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 709px;
+  left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__span-accent {
+  display: flex;
+  color: #2f80ed;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 683px;
+  left: 80px;
+  margin-top: 28px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.inside_coffee_shop {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+.header__footer {
+  color: #6f6f6f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header__timetable {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+.header__paragraph {
+  margin: 0;
+}
+.header__adress {
+  display: flex;
+  margin-top: auto;
+  position: absolute;
+  bottom: 20px;
+  right: 80px;
 }
