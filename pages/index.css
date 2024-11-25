@@ -199,16 +199,21 @@ li {
 }
 
 .reservation {
+  display: flex;
+  flex-direction: column;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
+  height: 100%;
 }
 .reservation__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin: 0 auto 80px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -217,31 +222,35 @@ li {
 }
 .reservation__form {
   max-width: 385px;
+  margin: 0 auto 120px;
 }
 .reservation__block {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
-.reservation-reservation__title {
-  top: 100px;
+.reservation__label {
+  display: block;
+  margin-bottom: 8px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
-
-.reservation__label {
-  gap: 8px;
-}
-.reservation-reservation__label {
+.reservation__input {
   border-radius: 4px;
   width: 100%;
-  bottom: 32px;
+  margin: 0 0 32px;
+  box-sizing: border-box;
   height: 60px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  border-color: #838383;
+  padding: 15px 20px;
 }
 .reservation__buttom {
   border-radius: 4px;
@@ -250,11 +259,13 @@ li {
   color: #ffffff;
   max-width: 385px;
   height: 60px;
+  margin-bottom: 32px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  padding: 0 100px;
 }
 .reservation__buttom:hover {
   opacity: 70%;
@@ -263,6 +274,8 @@ li {
   border-radius: 2px;
   width: 20px;
   height: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .checkbox__label {
 }
@@ -273,4 +286,8 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+.reservation__submit {
+  display: flex;
+  justify-content: center;
 }
