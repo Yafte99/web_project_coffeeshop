@@ -73,6 +73,9 @@
   color: #ffffff;
   text-decoration: none;
 }
+.footer__list-link:hover {
+  color: #c1c1c1;
+}
 
 .footer__list-icon {
   width: 16px;
